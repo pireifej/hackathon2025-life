@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Main room outline -->
+    <rect x="50" y="50" width="700" height="500" fill="none" stroke="black" stroke-width="2"/>
+    
+    <!-- Rooms -->
+    <rect x="100" y="100" width="200" height="150" fill="none" stroke="black"/>
+    <rect x="100" y="300" width="200" height="150" fill="none" stroke="black"/>
+    <rect x="500" y="100" width="200" height="150" fill="none" stroke="black"/>
+    <rect x="500" y="300" width="200" height="150" fill="none" stroke="black"/>
+    
+    <!-- Corridor -->
+    <path d="M300 200 H500 M300 400 H500" stroke="black" stroke-width="1"/>
+    
+    <!-- Doors -->
+    <path d="M250 100 A 20 20 0 0 1 270 120" fill="none" stroke="black"/>
+    <path d="M250 300 A 20 20 0 0 1 270 320" fill="none" stroke="black"/>
+    <path d="M550 100 A 20 20 0 0 1 570 120" fill="none" stroke="black"/>
+    <path d="M550 300 A 20 20 0 0 1 570 320" fill="none" stroke="black"/>
+    
+    <!-- Labels -->
+    <text x="150" y="175" font-family="Arial" font-size="14">Room 101</text>
+    <text x="150" y="375" font-family="Arial" font-size="14">Room 102</text>
+    <text x="550" y="175" font-family="Arial" font-size="14">Room 103</text>
+    <text x="550" y="375" font-family="Arial" font-size="14">Room 104</text>
+    
+    <!-- Emergency exits -->
+    <rect x="375" y="50" width="50" height="10" fill="red"/>
+    <text x="365" y="40" font-family="Arial" font-size="12" fill="red">EXIT</text>
+</svg> 
